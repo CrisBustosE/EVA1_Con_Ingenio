@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con Ingenio | Tu Socio Tecnológico</title>
+    <!-- Entregamos un favicon vacío para eliminar el aviso de ciertos navegadores -->
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body class="light-mode">
+    <header class="header">
+        <div class="logo">Con Ingenio</div>
+        <button class="btn-hamburger" id="btn-hamburger">☰</button>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicios">Nuestros Servicios</a></li>
+                <li><a href="#contacto">Contáctenos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">🌙</button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Tu socio tecnológico en la era digital.</h1>
+                <p>En Con Ingenio combinamos consultoría estratégica y desarrollo de software a medida para impulsar el
+                    crecimiento de tu negocio. Optimizando tus procesos y las aplicaciones que conectan con tus
+                    usuarios.</p>
+                <p class="hero-subtext">Descubre cómo podemos llevar tu visión al siguiente nivel con tecnología de
+                    vanguardia.</p>
+                <a href="#contacto" class="btn-primary call-to-action">Comienza ya</a>
+            </div>
+        </section>
+
+        <section id="servicios" class="section-padding">
+            <h2>Nuestros Servicios</h2>
+            <div class="grid-servicios">
+
+                <article class="card">
+                    <img src="./assets/svg-icons/magnifying-glass.svg" alt="Consultoría" class="card-icon">
+                    <h3>Consultoría Digital</h3>
+                    <p>Identificamos las fallas y conectamos los puntos entre tu negocio y tu estrategia digital.
+                        Nuestro equipo experto cuenta con años de experiencia en la definición de estrategias y hojas de
+                        ruta en función de tus objetivos específicos.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/svg-icons/network.svg" alt="Multiexperiencia" class="card-icon">
+                    <h3>Soluciones Multiexperiencia</h3>
+                    <p>Deleitamos a las personas usuarias con experiencias interconectadas a través de aplicaciones web,
+                        móviles, interfaces conversacionales, digital twin, IoT y AR. Su arquitectura puede adaptarse y
+                        evolucionar para adaptarse a los cambios de tu organización.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/svg-icons/arrow.svg" alt="Ecosistemas" class="card-icon">
+                    <h3>Evolución de Ecosistemas</h3>
+                    <p>Ayudamos a las empresas a evolucionar y ejecutar sus aplicaciones de forma eficiente, desplegando
+                        equipos especializados en la modernización y el mantenimiento de ecosistemas técnicos. Creando
+                        soluciones robustas en tecnologías de vanguardia.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/svg-icons/idea.svg" alt="Low-Code" class="card-icon">
+                    <h3>Soluciones Low-Code</h3>
+                    <p>Traemos el poder de las soluciones low-code y no-code para ayudar a nuestros clientes a acelerar
+                        su salida al mercado y añadir valor. Aumentamos la productividad y la calidad, reduciendo los
+                        requisitos de cualificación de los desarrolladores.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contacto" class="section-padding">
+            <h2>Contáctenos</h2>
+            <div class="grid-contacto card">
+
+                <form class="contact-form" id="formulario">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="servicio">Selección de servicio:</label>
+                        <select id="servicio" name="servicio">
+                            <option value="consultoria">Consultoría Digital</option>
+                            <option value="multiexperiencia">Soluciones Multiexperiencia</option>
+                            <option value="ecosistemas">Evolución de Ecosistemas</option>
+                            <option value="lowcode">Soluciones Low-Code</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">Enviar</button>
+                </form>
+
+                <aside class="info-empresa">
+                    <h3>Con Ingenio</h3>
+                    <p><strong>Dirección física:</strong><br>Av. Providencia 1234, Oficina 601<br>Providencia, Santiago
+                        -
+                        Chile</p>
+                    <p><strong>Contacto telefónico:</strong><br>Teléfono: +56 2 1234 5678</p>
+                    <p><strong>Dominio de la página web:</strong><br><a
+                            href="http://www.coningenio.cl/">http://www.coningenio.cl/</a></p>
+                    <p><strong>Correo electrónico:</strong><br>info@coningenio.cl</p>
+                </aside>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section-padding">
+            <h2>Nosotros</h2>
+            <div class="grid-nosotros">
+                <article class="card">
+                    <img src="./assets/svg-icons/hands-and-leaves.svg" alt="Valores" class="card-icon">
+                    <h3>Nuestros Valores</h3>
+                    <p>Acelere la innovación con equipos tecnológicos de clase mundial. Lo conectaremos con un equipo
+                        remoto completo de increíbles talentos independientes para todas sus necesidades de desarrollo
+                        de software.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/svg-icons/medal.svg" alt="Misión" class="card-icon">
+                    <h3>Misión</h3>
+                    <p>Nuestra misión es ofrecer soluciones digitales innovadoras y de alta calidad que impulsen el
+                        éxito de nuestros clientes, ayudándolos a alcanzar sus objetivos empresariales a través de la
+                        tecnología y la creatividad.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./assets/svg-icons/vision.svg" alt="Visión" class="card-icon">
+                    <h3>Visión</h3>
+                    <p>Nos visualizamos como líderes en el campo de la consultoría y desarrollo de software, reconocidos
+                        por nuestra excelencia en el servicio al cliente, nuestra capacidad para adaptarnos a las
+                        necesidades cambiantes del mercado y nuestra contribución al crecimiento y la transformación
+                        digital de las empresas.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Con Ingenio. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
